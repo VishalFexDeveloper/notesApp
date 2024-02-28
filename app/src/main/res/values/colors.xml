@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="or9ange">#ed5f1e</color>
+
+    <style name="cornal">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

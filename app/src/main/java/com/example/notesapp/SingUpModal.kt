@@ -1,0 +1,1 @@
+package com.example.notesappdata class SingUpModal(    val id: Int,    val userName: String,    val email: String,    val number: String,    val password: String)

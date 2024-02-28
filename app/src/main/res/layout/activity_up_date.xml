@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".UpDateActivity">
+
+    <TextView
+        android:id="@+id/upDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="Up Date"
+        android:textColor="@color/or9ange"
+        android:textSize="25sp"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageButton
+        android:id="@+id/upDateSaveBtn"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/done"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:background="?attr/selectableItemBackground"
+        app:tint="@color/or9ange" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/icon_img_update"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:layout_below="@id/upDateSaveBtn"
+        android:src="@drawable/add_user"
+        app:shapeAppearance="@style/cornal"/>
+
+    <EditText
+        android:id="@+id/upDateTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orage_border"
+        android:hint="Enter the title"
+        android:paddingStart="5sp"
+        android:autofillHints="name"
+        android:layout_below="@id/icon_img_update"
+        tools:ignore="RtlSymmetry"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:fontFamily="@font/poppins"
+        android:id="@+id/upDateWriteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/orage_border"
+        android:hint="Enter the description"
+        android:paddingStart="5sp"
+        android:autofillHints="name"
+        android:layout_below="@id/upDateTitleEditText"
+        tools:ignore="RtlSymmetry"
+        android:gravity="start"
+        android:padding="12dp"
+        android:textColorHint="#666666"/>
+
+</RelativeLayout>

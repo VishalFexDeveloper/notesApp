@@ -1,0 +1,1 @@
+package com.example.notesappimport java.sql.Blobdata class NotesData(val id:Int,val title: String,val content:String ,val img :ByteArray ) {}
